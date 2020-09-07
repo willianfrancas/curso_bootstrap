@@ -1,5 +1,11 @@
+$gunmetal: #012a36ff;
+$antique-ruby: #8b2635ff;
+$lavender-blush: #f3e8eeff;
+$medium-purple: #957fefff;
+$maximum-yellow-red: #ffbf46ff;
+
 body {
-    background-color: #AB42FE0F;
+    background-color: $gunmetal;
 }
 header { 
     margin: 2vh auto;
@@ -10,21 +16,23 @@ header, nav, main {
 }
 nav, main {
     min-height: 82vh;
+    li {
+        list-style: none;
+    }
 }
 main {
-    h4, h5 {
-        margin-top: .8rem;
-        color: #457890;
-    }
     div {
         margin-bottom: .12rem;
     }
-
     .row > .col, .row > [class^=col-], .bg {
-        background: rgba(243, 117, 32, .15);
-        background: rgba(243, 117, 32 , .2);
+        background: $lavender-blush;
         padding-top: .75rem;
         padding-bottom: .75rem;
-        border: thin solid lime;
+        border: thin solid $maximum-yellow-red;
+    }
+    @for $i from 1 to 7 {
+        h#{$i} {
+            color: $antique-ruby;
+        }
     }
 }
