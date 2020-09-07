@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/scss/styles.css">
+    <title>Curso Bootstrap</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <header>Header</header>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-2 col-md-3">
+                <nav>
+                    <ul class="row">
+                        <li class="col col-xl-12"><a href="grid-system.html" class="grid">Grid System</a></li>
+                        <li class="col col-xl-12"><a href="flexbox.html" class="flexbox">Flexbox</a></li>
+                        <li class="col col-xl-12"><a href="tipografia.html" class="tipografia">Tipografia</a></li>
+                        <li class="col col-xl-12"><a href="#">Desafios</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="col-10 col-md-9">
+                <main>
+                    <section id="grid">
+                        <div class="container">
+                            <h4>Grid System</h4>
+                            <h5>Col pure</h5>
+                            <div class="row m-2">
+                                <div class="col">auto</div>
+                                <div class="col-5">5 colunas</div>
+                                <div class="col">auto</div>
+                            </div>
+
+                            <div class="row m-2">
+                                <div class="col">auto</div>
+                                <div class="col-6">6 colunas</div>
+                                <div class="col">auto</div>
+                            </div>
+                            <h5>Col small</h5>
+                            <div class="row m-2">
+                                <div class="col-sm-8">col-sm-8</div>
+                                <div class="col-sm-4">col-sm-4</div>
+                            </div>
+                            <div class="row m-2">
+                                <div class="col-sm">auto sm</div>
+                                <div class="col-sm-5">col-sm-5</div>
+                                <div class="col-sm">auto sm</div>
+                            </div>
+
+                            <h5>Col mix | md</h5>
+                            <div class="row m-2">
+                                <div class="col-12 col-md-4">col-12 col-md-4</div>
+                                <div class="col-6 col-md-8">col-6 col-md-8</div>
+                            </div>
+                            <div class="row m-2">
+                                <div class="col-6 col-md-4">col-6 col-md-4</div>
+                                <div class="col-6 col-md-4">col-6 col-md-4</div>
+                                <div class="col-6 col-md-4">col-6 col-md-4</div>
+                            </div>
+
+                            <h5>Order</h5>
+                            <div class="row m-2">
+                                <div class="col col-md-3 order-sm-3">Primeiro</div>
+                                <div class="col col-md-6 order-sm-2">Segundo</div>
+                                <div class="col col-md-3 order-sm-1">Terceiro</div>
+                            </div>
+
+                            <h5>Offset</h5>
+                            <div class="row m-2">
+                                <div class="col-sm-4">A</div>
+                                <div class="col-sm-4 offset-sm-4">C</div>
+                            </div>
+
+                            <h5>Nesting</h5>
+                            <div class="row m-2">
+                                <div class="col-12">
+                                    Nivel: 1
+                                    <div class="row">
+                                        <div class="col-8">
+                                            Nivel: 2
+                                            <div class="row">
+                                                <div class="col-3">3</div>
+                                                <div class="col-9">9</div>
+                                            </div>
+                                        </div>
+                                        <div class="col-4">4</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                </main>
+            </div>
+
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script> -->
+    <script src="./assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/script.js"></script>
+</body>
+
+</html>
