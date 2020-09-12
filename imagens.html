@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/scss/styles.css">
+    <title>Curso Bootstrap - Imagens</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <header>Header</header>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-2 col-md-3">
+                <nav class="d-flex flex-column">
+                    <ul>
+                        <li><a href="grid-system.html" class="grid">Grid System</a></li>
+                        <li><a href="flexbox.html" class="flexbox">Flexbox</a></li>
+                        <li><a href="tipografia.html" class="tipografia">Tipografia</a></li>
+                        <li><a href="imagens.html" class="imagens">Imagens</a></li>
+                        <li><a href="tabelas.html" class="tabelas">Tabelas</a></li>
+                        <li><a href="alertas.html" class="alertas">Alertas</a></li>
+                        <li><a href="./desafio/index.html">Desafios</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="col-10 col-md-9">
+                <main>
+                    <section>
+                        <div class="container">
+                            <h4>Images</h4>
+                            <div class="row m-2">
+                                <div class="col">
+                                    <h6>img-fluid</h6>
+                                    <img class="img-fluid" src="./assets/images/door.jfif" alt="Porta">
+                                </div>
+                                <div class="col">
+                                    <h6>img-thumbnail</h6>
+                                    <img class="img-thumbnail" src="./assets/images/thinking.jfif" alt="Homem pensando">
+                                </div>
+                                <div class="col">
+                                    <h6>img-fluid rounded</h6>
+                                    <img class="img-fluid rounded" src="./assets/images/pinscher.jfif"
+                                        alt="Cachorro pinscher">
+                                </div>
+                            </div>
+                            <h4>Image centered</h4>
+                            <div class="row m-2">
+                                <div class="col">
+                                    <img class="rounded d-block mx-auto" style="width: 250px;"
+                                        src="./assets/images/dog.jfif" alt="Cachorro">
+                                </div>
+                            </div>
+
+                            <h4>Picture</h4>
+                            <div class="row m-2">
+                                <div class="col">
+                                    <picture>
+                                        <source srcset="./assets/images/pet-friend.jfif">
+                                        <img class="img-fluid img-thumbnail" src="./assets/images/pet-friend.jfif" alt="Cachorro na montanha">
+                                    </picture>
+                                </div>
+                            </div>
+                            <h4>Figure</h4>
+                            <div class="row m-2">
+                                <div class="col">
+                                    <figure class="figure">
+                                        <img src="./assets/images/dog-playing.jfif" alt="Cachorro brincando" class="figure-img img-fluid">
+                                        <figcaption class="figure-caption">legenda da image</figcaption>
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </main>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script> -->
+    <script src="./assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/script.js"></script>
+</body>
+
+</html>
