@@ -1,0 +1,43 @@
+/* SCSS HEX */
+$main: #e2c044ff;
+$secondary: #587b7fff;
+$text-dark: #1e2019ff;
+$onyx: #393e41ff;
+$timberwolf: #d3d0cbff;
+
+header {
+    height: 10vh;
+    background: $main;
+}
+footer {    
+    background: $main;
+}
+nav {
+    height: 10vh;
+}
+.menu-v {
+    background: $secondary;
+    height: 70vh;
+}
+.logo {
+    height: 10vh;
+}
+ul {
+    list-style-type: none;
+    li {
+        a {
+            color: $text-dark;
+        }
+        &:hover {
+            background: $main;
+            transition: .5s;
+            a {
+                color: $text-dark;
+                text-decoration: none;
+            }
+        }
+    }
+}
+footer {
+    height: 20vh;
+}

@@ -20,6 +20,7 @@ nav li, main li {
 }
 
 main div {
+  border-radius: 8px;
   margin-bottom: .12rem;
 }
 
