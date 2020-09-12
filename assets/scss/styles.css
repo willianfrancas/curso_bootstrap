@@ -1,5 +1,5 @@
 body {
-  background-color: #AB42FE0F;
+  background-color: #012a36ff;
 }
 
 header {
@@ -15,9 +15,8 @@ nav, main {
   min-height: 82vh;
 }
 
-main h4, main h5 {
-  margin-top: .8rem;
-  color: #457890;
+nav li, main li {
+  list-style: none;
 }
 
 main div {
@@ -26,10 +25,33 @@ main div {
 }
 
 main .row > .col, main .row > [class^=col-], main .bg {
-  background: rgba(243, 117, 32, 0.15);
-  background: rgba(243, 117, 32, 0.2);
+  background: #f3e8eeff;
   padding-top: .75rem;
   padding-bottom: .75rem;
-  border: thin solid lime;
+  border: thin solid #ffbf46ff;
+}
+
+main h1 {
+  color: #8b2635ff;
+}
+
+main h2 {
+  color: #8b2635ff;
+}
+
+main h3 {
+  color: #8b2635ff;
+}
+
+main h4 {
+  color: #8b2635ff;
+}
+
+main h5 {
+  color: #8b2635ff;
+}
+
+main h6 {
+  color: #8b2635ff;
 }
 /*# sourceMappingURL=styles.css.map */

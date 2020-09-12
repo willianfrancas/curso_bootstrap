@@ -1,0 +1,46 @@
+/* SCSS HEX */
+header {
+  height: 10vh;
+  background: #e2c044ff;
+}
+
+footer {
+  background: #e2c044ff;
+}
+
+nav {
+  height: 10vh;
+}
+
+.menu-v {
+  background: #587b7fff;
+  height: 70vh;
+}
+
+.logo {
+  height: 10vh;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul li a {
+  color: #1e2019ff;
+}
+
+ul li:hover {
+  background: #e2c044ff;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+ul li:hover a {
+  color: #1e2019ff;
+  text-decoration: none;
+}
+
+footer {
+  height: 20vh;
+}
+/*# sourceMappingURL=style.css.map */
