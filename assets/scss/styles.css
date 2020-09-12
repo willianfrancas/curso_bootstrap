@@ -21,6 +21,7 @@ main h4, main h5 {
 }
 
 main div {
+  border-radius: 8px;
   margin-bottom: .12rem;
 }
 
