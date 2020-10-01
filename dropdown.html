@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/scss/styles.css">
+    <title>Curso Bootstrap</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <header>Header</header>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-2 col-md-3">
+                <nav class="d-flex flex-column">
+                    <ul>
+                        <li><a href="g class=" dropdown-item"rid-system.html" class="grid">grid System</a></li>
+                        <li><a href="flexbox.html" class="flexbox">flexbox</a></li>
+                        <li><a href="tipografia.html" class="tipografia">tipografia</a></li>
+                        <li><a href="imagens.html" class="imagens">imagens</a></li>
+                        <li><a href="tabelas.html" class="tabelas">tabelas</a></li>
+                        <li><a href="alertas.html" class="alertas">alertas</a></li>
+                        <li><a href="botoes.html" class="alertas">botões</a></li>
+                        <li><a href="badges.html" class="alertas">badges</a></li>
+                        <li><a href="list-group.html" class="alertas">lista de grupos</a></li>
+                        <li><a href="dropdown.html" class="alertas">dropdown</a></li>
+                        <li><a href="./desafio/index.html">desafios</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="col-10 col-md-9">
+                <main>
+                    <section id="tabelas">
+                        <div class="container">
+                            <h4>Dropdown</h4>
+                            <div class="row p-2">
+                                <div class="col">
+                                    <div class="dropdown">
+                                        <button class="btn btn-primary dropdown-toggle"
+                                            data-toggle="dropdown">menu</button>
+                                        <div class="dropdown-menu">
+                                            <a href="" class="dropdown-item">1</a>
+                                            <a href="" class="dropdown-item">2</a>
+                                            <a href="" class="dropdown-item">3</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <h5>divider</h5>
+                            <div class="row p-2">
+                                <div class="col">
+                                    <div class="dropdown">
+                                        <button class="btn btn-primary dropdown-toggle"
+                                            data-toggle="dropdown">menu</button>
+                                        <div class="dropdown-menu">
+                                            <a href="" class="dropdown-item">1</a>
+                                            <a href="" class="dropdown-item">2</a>
+                                            <div class="dropdown-divider"></div>
+                                            <a href="" class="dropdown-item">3</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <h5>dropdown 'info'</h5>
+                            <div class="row p-2">
+                                <div class="col">
+                                    <div class="dropdown">
+                                        <button class="btn btn-primary dropdown-toggle"
+                                            data-toggle="dropdown">info</button>
+                                        <div class="dropdown-menu" style="width: 200px; padding: .8rem;">
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt,
+                                                laudantium? Magni unde ipsa nam blanditiis itaque qui assumenda
+                                                reiciendis voluptates voluptatibus. Consequatur magnam quis velit hic
+                                                exercitationem odit excepturi natus!</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <h4>split</h4>
+                            <div class="row p-2">
+                                <div class="col">
+                                    <div class="btn-group">
+                                        <button class="btn btn-dark">menu</button>
+                                        <button class="btn btn-light dropdown-toggle dropdown-toggle-split"
+                                            data-toggle="dropdown"></button>
+                                        <div class="dropdown-menu">
+                                            <a href="" class="dropdown-item">1</a>
+                                            <a href="" class="dropdown-item">2</a>
+                                            <a href="" class="dropdown-item">3</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <h4>size</h4>
+                            <div class="row p-2">
+                                <div class="col">
+                                    <div class="btn-group">
+                                        <button class="btn btn-dark">menu</button>
+                                        <button class="btn btn-light dropdown-toggle dropdown-toggle-split"
+                                            data-toggle="dropdown"></button>
+                                        <div class="dropdown-menu">
+                                            <a href="" class="dropdown-item">1</a>
+                                            <a href="" class="dropdown-item">2</a>
+                                            <a href="" class="dropdown-item">3</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <h4>position</h4>
+                            <div class="row p-2">
+                                <div class="col d-flex justify-content-around">
+                                    <div class="dropdown dropup">
+                                        <button class="btn btn-dark">menu</button>
+                                        <button class="btn btn-success dropdown-toggle dropdown-toggle-split"
+                                            data-toggle="dropdown"></button>
+                                        <div class="dropdown-menu">
+                                            <a href="" class="dropdown-item">1</a>
+                                            <a href="" class="dropdown-item">2</a>
+                                            <a href="" class="dropdown-item">3</a>
+                                        </div>
+                                    </div>
+
+                                    <div class="dropdown dropright">
+                                        <button class="btn btn-dark">menu</button>
+                                        <button class="btn btn-warning dropdown-toggle dropdown-toggle-split"
+                                            data-toggle="dropdown"></button>
+                                        <div class="dropdown-menu">
+                                            <a href="" class="dropdown-item">1</a>
+                                            <a href="" class="dropdown-item">2</a>
+                                            <a href="" class="dropdown-item">3</a>
+                                        </div>
+                                    </div>
+                                    <div class="dropdown dropleft">
+                                        <button class="btn btn-dark">menu</button>
+                                        <button class="btn btn-outline-dark dropdown-toggle dropdown-toggle-split"
+                                            data-toggle="dropdown"></button>
+                                        <div class="dropdown-menu">
+                                            <a href="" class="dropdown-item">1</a>
+                                            <a href="" class="dropdown-item">2</a>
+                                            <a href="" class="dropdown-item">3</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <h4>align</h4>
+                            <div class="row p-2">
+                                <div class="col d-flex justify-content-around">
+                                    <div class="dropdown">
+                                        <button class="btn btn-dark">menu</button>
+                                        <button class="btn btn-danger dropdown-toggle dropdown-toggle-split"
+                                            data-toggle="dropdown"></button>
+                                        <div class="dropdown-menu dropdown-menu-right">
+                                            <a href="" class="dropdown-item">1</a>
+                                            <a href="" class="dropdown-item">2</a>
+                                            <a href="" class="dropdown-item">3</a>
+                                        </div>
+                                    </div>
+                                    <div class="dropdown">
+                                        <button class="btn btn-dark">menu</button>
+                                        <button class="btn btn-outline-info dropdown-toggle dropdown-toggle-split"
+                                            data-toggle="dropdown"></button>
+                                        <div class="dropdown-menu dropdown-menu-left">
+                                            <a href="" class="dropdown-item">1</a>
+                                            <a href="" class="dropdown-item">2</a>
+                                            <a href="" class="dropdown-item">3</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </main>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script> -->
+    <script src="./assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/script.js"></script>
+</body>
+
+</html>
