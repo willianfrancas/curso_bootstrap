@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/scss/styles.css">
+    <title>Curso Bootstrap</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <header>Header</header>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-2 col-md-3">
+                <nav class="d-flex flex-column">
+                    <ul>
+                        <li><a href="grid-system.html" class="grid">grid System</a></li>
+                        <li><a href="flexbox.html" class="flexbox">flexbox</a></li>
+                        <li><a href="tipografia.html" class="tipografia">tipografia</a></li>
+                        <li><a href="imagens.html" class="imagens">imagens</a></li>
+                        <li><a href="tabelas.html" class="tabelas">tabelas</a></li>
+                        <li><a href="alertas.html" class="alertas">alertas</a></li>
+                        <li><a href="botoes.html" class="alertas">botões</a></li>
+                        <li><a href="badges.html" class="alertas">badges</a></li>
+                        <li><a href="list-group.html" class="alertas">lista de grupos</a></li>
+                        <li><a href="dropdown.html" class="alertas">dropdown</a></li>
+                        <li><a href="./desafio/index.html">desafios</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="col-10 col-md-9">
+                <main>
+                    <section id="tabelas">
+                        <div class="container">
+                            <h4>list-group-item</h4>
+                            <div class="row p-2">
+                                <div class="col">
+                                    <ul class="list-group">
+                                        <li class="list-group-item">1</li>
+                                        <li class="list-group-item disabled">2</li>
+                                        <li class="list-group-item">3</li>
+                                        <li class="list-group-item active">4</li>
+                                        <li class="list-group-item">5</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <h4>list-group-item-action</h4>
+                            <div class="row p-2">
+                                <div class="col">
+                                    <ul class="list-group">
+                                        <a class="list-group-item list-group-item-action">1</a>
+                                        <a class="list-group-item list-group-item-action disabled">2</a>
+                                        <a class="list-group-item list-group-item-action">3</a>
+                                        <a class="list-group-item list-group-item-action active">4</a>
+                                        <a class="list-group-item list-group-item-action">5</a>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <h4> list-group-flush </h4>
+                            <div class="row p-2">
+                                <div class="col">
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">1</li>
+                                        <li class="list-group-item disabled">2</li>
+                                        <li class="list-group-item">3</li>
+                                        <li class="list-group-item active">4</li>
+                                        <li class="list-group-item">5</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <h4> list-group-horizontal-sm </h4>
+                            <div class="row p-2">
+                                <div class="col">
+                                    <ul class="list-group list-group-flush list-group-horizontal-sm">
+                                        <li class="list-group-item">1</li>
+                                        <li class="list-group-item disabled">2</li>
+                                        <li class="list-group-item">3</li>
+                                        <li class="list-group-item active">4</li>
+                                        <li class="list-group-item">5</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <h4> list-group flex </h4>
+                            <div class="row p-2">
+                                <div class="col">
+                                    <ul class="list-group">
+                                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium
+                                            <span class="badge badge-dark badge-pill">20</span>
+                                        </li>
+                                        <li class="list-group-item">2</li>
+                                        <li class="list-group-item">3</li>
+                                        <li class="list-group-item">4</li>
+                                        <li class="list-group-item">5</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <h4> list-group</h4>
+                            <div class="row p-2">
+                                <div class="col">
+                                    <a class="list-group-item list-group-item-action">
+                                        <span class="d-flex justify-content-between">
+                                            <h6>Titulo</h6>
+                                            <small>há pouco</small>
+                                        </span>
+                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta laborum
+                                            molestias dicta assumenda quae, expedita officia. Sunt porro sequi hic
+                                            corporis distinctio? Saepe, omnis atque. Nesciunt debitis cumque cupiditate
+                                            est?
+                                        </p>
+                                        <small>Lorem ipsum dolor sit amet consectetur adipisicing elit.</small>
+
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </main>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script> -->
+    <script src="./assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/script.js"></script>
+</body>
+
+</html>
