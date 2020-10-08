@@ -56,8 +56,18 @@
         "id": 11
       },
       {
-        "name": "desafios",
+        "name": "desafio pizza",
         "path": "./desafio/index.html",
+        "id": 12
+      },
+      {
+        "name": "form-group",
+        "path": "form-group.html",
+        "id": 13
+      },
+      {
+        "name": "desafio form",
+        "path": "./desafio_form/index.html",
         "id": 12
       }
     ]

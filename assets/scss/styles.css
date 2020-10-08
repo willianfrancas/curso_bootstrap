@@ -28,7 +28,9 @@ main .row > .col, main .row > [class^=col-], main .bg {
   background: #f3e8eeff;
   padding-top: .75rem;
   padding-bottom: .75rem;
-  border: thin solid #ffbf46ff;
+  border: none;
+  border-bottom: thin solid #ffbf46ff;
+  border-left: thin solid #ffbf46ff;
 }
 
 main h1 {
