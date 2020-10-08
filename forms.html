@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/scss/styles.css">
+    <title>Curso Bootstrap</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <header>Header</header>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-2 col-md-3">
+                <nav class="d-flex flex-column">
+                    <ul class="render">
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="col-10 col-md-9">
+                <main>
+                    <section id="tabelas">
+                        <div class="container">
+                            <h4>Forms</h4>
+                            <h5>without bootstrap classes </h5>
+                            <div class="row p-2">
+                                <div class="col">
+                                    <form action="">
+                                        <input type="text" name="email" id="email">
+                                        <label for="email">e-mail</label>
+                                        <input type="password" name="password" id="password">
+                                        <label for="password">password</label>
+                                    </form>
+                                </div>
+                            </div>
+
+                            <h5>with bootstrap classes </h5>
+                            <div class="row p-2">
+                                <div class="col">
+                                    <form action="">
+                                        <div class="form-group">
+                                            <input type="text" name="email" id="email-1" class="form-control">
+                                            <label for="email-1">e-mail</label>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <input type="password" name="password" id="password-1" class="form-control">
+                                            <label for="password-1">password</label>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+
+                            <h5>---</h5>
+                            <div class="row p-2">
+                                <div class="col">
+                                    <form action="">
+                                        <div class="form-group">
+                                            <label for="state">estado</label>
+                                            <select name="state" id="state" class="form-control">
+                                                <option value="AC">Acre</option>
+                                                <option value="AL">Alagoas</option>
+                                                <option value="AP">Amapá</option>
+                                                <option value="AM">Amazonas</option>
+                                                <option value="BA">Bahia</option>
+                                                <option value="CE">Ceará</option>
+                                                <option value="DF">Distrito Federal</option>
+                                                <option value="ES">Espírito Santo</option>
+                                                <option value="GO">Goiás</option>
+                                                <option value="MA">Maranhão</option>
+                                                <option value="MT">Mato Grosso</option>
+                                                <option value="MS">Mato Grosso do Sul</option>
+                                                <option value="MG">Minas Gerais</option>
+                                                <option value="PA">Pará</option>
+                                                <option value="PB">Paraíba</option>
+                                                <option value="PR">Paraná</option>
+                                                <option value="PE">Pernambuco</option>
+                                                <option value="PI">Piauí</option>
+                                                <option value="RJ">Rio de Janeiro</option>
+                                                <option value="RN">Rio Grande do Norte</option>
+                                                <option value="RS">Rio Grande do Sul</option>
+                                                <option value="RO">Rondônia</option>
+                                                <option value="RR">Roraima</option>
+                                                <option value="SC">Santa Catarina</option>
+                                                <option value="SP">São Paulo</option>
+                                                <option value="SE">Sergipe</option>
+                                                <option value="TO">Tocantins</option>
+                                            </select>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <textarea name="message" id="" rows="4" class="form-control"></textarea>
+                                            <label for="message">mensagem</label>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+
+                            <h5>form-control-sizes</h5>
+                            <div class="row p-2">
+                                <div class="col">
+                                    <form action="">
+                                        <div class="form-group">
+                                            <input type="text" name="email" id="email-2" class="form-control">
+                                            <label for="email-2">e-mail</label>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <input type="password" name="password" id="password-2"
+                                                class="form-control form-control-sm">
+                                            <label for="password-2">password</label>
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="password" name="password" id="conf_password"
+                                                class="form-control form-control-lg">
+                                            <label for="conf_password">confirm password</label>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+
+                            <h5>form-control readonly | plaintext</h5>
+                            <div class="row p-2">
+                                <div class="col">
+                                    <form action="">
+                                        <div class="form-group">
+                                            <input type="text" name="email" id="email-3" class="form-control" readonly
+                                                placeholder="email@email.com">
+                                            <label for="email-2">e-mail</label>
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="text" name="email" id="email-3" class="form-control-plaintext"
+                                                placeholder="email@email.com">
+                                            <label for="email-2">e-mail</label>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+
+                            <h5>form-control range</h5>
+                            <div class="row p-2">
+                                <div class="col">
+                                    <form action="">
+                                        <div class="form-group">
+                                            <input type="range" name="volume" id="volume" class="form-control-range">
+                                            <label for="volume">volume</label>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+
+                            <h5>form-control radio</h5>
+                            <div class="row p-2">
+                                <div class="col">
+                                    <form action="">
+                                        <div class="form-check">
+                                            <input type="radio" name="gender" id="gender-f" class="form-check-input"
+                                                value="F">
+                                            <label for="gender-f">feminino</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input type="radio" name="gender" id="gender-m" class="form-check-input"
+                                                value="M">
+                                            <label for="gender-m">masculino</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input type="radio" name="gender" id="gender-O" class="form-check-input"
+                                                value="O">
+                                            <label for="gender-O">outro</label>
+                                        </div>
+                                    </form>
+
+                                    <form action="">
+                                        <div class="form-check form-check-inline">
+                                            <input type="radio" name="gender" id="gender-f" class="form-check-input"
+                                                value="F">
+                                            <label for="gender-f">feminino</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input type="radio" name="gender" id="gender-m" class="form-check-input"
+                                                value="M">
+                                            <label for="gender-m">masculino</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input type="radio" name="gender" id="gender-O" class="form-check-input"
+                                                value="O">
+                                            <label for="gender-O">outro</label>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </main>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script> -->
+    <script src="./assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/script.js"></script>
+</body>
+
+</html>
