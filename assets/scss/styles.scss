@@ -7,7 +7,7 @@ $maximum-yellow-red: #ffbf46ff;
 body {
     background-color: $gunmetal;
 }
-header { 
+header {
     margin: 2vh auto;
 }
 header, nav, main {
@@ -29,7 +29,9 @@ main {
         background: $lavender-blush;
         padding-top: .75rem;
         padding-bottom: .75rem;
-        border: thin solid $maximum-yellow-red;
+        border: none;
+        border-bottom: thin solid $maximum-yellow-red;
+        border-left: thin solid $maximum-yellow-red;
     }
     @for $i from 1 to 7 {
         h#{$i} {
