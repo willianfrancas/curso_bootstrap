@@ -1,9 +1,9 @@
-console.log(window.location.pathname);
-if(window.location === "/") {
-    window.location = "./index.html";
+if(window.location.pathname === "/") {
+    window.location = "./grid-system.html";
 }
 
-var url = 'https://api.sheety.co/97717c63f8de6e1e58e42fca477f2c78/itemsMenu/menu'
+// var url = 'https://api.sheety.co/97717c63f8de6e1e58e42fca477f2c78/itemsMenu/menu'
+var url = 'assets/data/menu.json'
 // URL API
 
 var xhttp = new XMLHttpRequest();
