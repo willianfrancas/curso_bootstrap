@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/scss/styles.css">
+    <title>Curso Bootstrap</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <header>Header</header>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-2 col-md-3">
+                <nav class="d-flex flex-column">
+                    <ul class="render">
+                    </ul>
+                </nav>
+            </div>
+            <div class="col-10 col-md-9">
+                <main>
+                    <div class="container">
+                        <form action="" novalidate class="needs-validation">
+                            <div class="form-row">
+                                <div class="col-6 form-group">
+                                    <label for="first">Primeiro nome</label>
+                                    <input id="first" type="text" class="form-control" required>
+                                </div>
+                                <div class="col-6 form-group">
+                                    <label for="second">Último nome</label>
+                                    <input id="second" type="text" class="form-control" required>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="form-row">
+                                <div class="col-12 col-sm-4 form-group">
+                                    <label for="cep">CEP</label>
+                                    <input id="cep" type="text" name="" class="form-control">
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="col-12 col-sm-8 form-group">
+                                    <label for="endereco">Endereço</label>
+                                    <input id="endereco" type="text" name="" class="form-control">
+                                </div>
+        
+                                <div class="col-12 col-sm-4 form-group">
+                                    <label for="numero">Nº</label>
+                                    <input id="numero" type="text" name="" class="form-control">
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="col-12 col-sm-6 form-group">
+                                    <label for="complemento">Complemento</label>
+                                    <input id="complemento" type="text" name="" class="form-control">
+                                </div>
+                                <div class="col-12 col-sm-6 form-group">
+                                    <label for="bairro">Bairro</label>
+                                    <input id="bairro" type="text" name="" class="form-control">
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="col-12 col-sm-4 form-group">
+                                    <label for="cidade">Cidade</label>
+                                    <input id="cidade" type="text" name="" class="form-control">
+                                </div>
+                                <div class="col-6 col-sm-4 form-group">
+                                    <label for="estado">Estado</label>
+                                    <input id="estado" type="text" class="form-control">
+                                </div>
+                                <div class="col-6 col-sm-4 form-group">
+                                    <label for="pais">País</label>
+                                    <input id="pais" type="text" class="form-control">
+                                </div>
+                            </div>
+        
+                            <button class="btn btn-primary btn-block">salvar</button>
+                        </form>
+                    </div>
+                </main>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script> -->
+    <script src="./assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/script.js"></script>
+
+    <script>
+        window.addEventListener('load', e => {
+            const form = document.querySelector('form');
+            form.addEventListener('submit', es => {
+                if (form.checkValidity() === false) {
+                    es.preventDefault();
+                    es.stopPropagation();
+                }
+                form.classList.add('was-validated');
+            })
+        })
+        // $(() => {
+        //     $('form').on('submit', e => {
+        //         const form = e.target;
+
+        //         if (form.checkValidity() == false)
+        //         {   
+        //             e.preventDefault();
+        //             e.stopPropagation();
+        //         }
+        //         $(form).addClass('was-validated');
+        //     })
+        // });
+    </script>
+</body>
+
+</html>
