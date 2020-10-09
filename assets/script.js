@@ -1,5 +1,6 @@
 const pathName = window.location.pathname;
-if (pathName === "/" || pathName === "/index.html") {
+
+if (pathName === "/" || pathName === "/index.html" || pathName === "/curso_bootstrap/") {
   window.location = "./grid-system.html";
 }
 
