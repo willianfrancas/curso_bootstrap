@@ -58,29 +58,59 @@
         {
           "name": "form-group",
           "path": "form-group.html",
-          "id": 12
+          "id": 110
         },
         {
           "name": "form-inline",
           "path": "./form-inline.html",
-          "id": 13
+          "id": 111
         },
         {
           "name": "form-validate",
           "path": "./form-validate.html",
-          "id": 14
+          "id": 112
         },
         {
           "name": "form-tooltip",
           "path": "./form-tooltip.html",
-          "id": 16
+          "id": 113
         },
         {
           "name": "form-custom",
           "path": "./form-custom.html",
-          "id": 16
+          "id": 114
+        },
+        {
+          "name": "form-input-group",
+          "path": "./form-input-group.html",
+          "id": 115
         }
       ]
+    },
+    {
+      "name": "media object",
+      "path": "media-object.html",
+      "id": 12
+    },
+    {
+      "name": "breadcrumb",
+      "path": "breadcrumb.html",
+      "id": 13
+    },
+    {
+      "name": "nav",
+      "path": "nav.html",
+      "id": 14
+    },
+    {
+      "name": "collapse",
+      "path": "collapse.html",
+      "id": 15
+    },
+    {
+      "name": "cards",
+      "path": "cards.html",
+      "id": 16
     },
     {
       "name": "desafios",
