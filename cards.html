@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/scss/styles.css">
+    <title>Curso Bootstrap</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <header>Header</header>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-2 col-md-3">
+                <nav class="d-flex flex-column">
+                    <ul class="render">
+                    </ul>
+                </nav>
+            </div>
+            <div class="col-10 col-md-9">
+                <main>
+                    <div class="container">
+                        <h4>Cards</h4>
+                        <div class="row p-2">
+                            <div class="col">
+                                <h5>card-body | card-title | card-subtitle | card-text | card-link </h5>
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Title</h5>
+                                        <h5 class="card-subtitle">Subtitle</h5>
+                                        <p class="card-text">
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias
+                                            ipsum cum itaque, fugit libero autem perferendis unde. Illum, ratione?
+                                        </p>
+                                        <a href="" class="card-link">link-1</a>
+                                        <a href="" class="card-link">link-2</a>
+                                    </div>
+                                </div>
+                                <hr>
+                                <h5>card-img-top </h5>
+                                <div class="card">
+                                    <img src="https://picsum.photos/2000/2000" alt="" class="card-img-top">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Title</h5>
+                                        <p class="card-text">
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias
+                                            ipsum cum itaque, fugit libero autem perferendis unde. Illum, ratione?
+                                        </p>
+                                        <a href="" class="card-link">link-1</a>
+                                        <a href="" class="card-link">link-2</a>
+                                    </div>
+                                </div>
+                                <hr>
+                                <h5> card | list-group-flush </h5>
+                                <div class="card">
+                                    <img src="https://picsum.photos/1000/1000" alt="" class="card-img-top">
+                                    <div class="card-body">
+                                        <ul class="list-group list-group-flush">
+                                            <li class="list-group-item list-group-item-action">item - 1</li>
+                                            <li class="list-group-item list-group-item-action">item - 2</li>
+                                            <li class="list-group-item list-group-item-action">item - 3</li>
+                                            <li class="list-group-item list-group-item-action">item - 4</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <hr>
+                                <h5> card-header | card-footer </h5>
+                                <div class="card">
+                                    <div class="card-header">
+                                        <div class="card-title">Title</div>
+                                    </div>
+                                    <div class="card-body">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, labore
+                                        voluptas nostrum laboriosam. Dolorem, doloremque temporibus?
+                                    </div>
+                                    <div class="card-footer">
+                                        footer
+                                    </div>
+                                </div>
+                                <hr>
+                                <h5> card-header | -tabs | nav-tabs </h5>
+                                <div class="card">
+                                    <div class="card-header">
+                                        <ul class="nav nav-tabs card-header-tabs">
+                                            <li class="nav-item"><a href="#" class="nav-link active">menu - 1</a></li>
+                                            <li class="nav-item"><a href="#" class="nav-link">menu - 2</a></li>
+                                            <li class="nav-item"><a href="#" class="nav-link">menu - 3</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="card-body">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, labore
+                                        voluptas nostrum laboriosam. Dolorem, doloremque temporibus?
+                                    </div>
+                                    <div class="card-footer">
+                                        footer
+                                    </div>
+                                </div>
+
+                                <h5> card-img </h5>
+                                <div class="card">
+                                    <img src="https://picsum.photos/500/500" alt="" class="card-img">
+                                    <div class="card-img-overlay text-white">
+                                        <h5 class="card-title">Title</h5>
+                                        <p class="card-text">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, labore
+                                            cupiditate voluptas nostrum laboriosam. Dolorem, doloremque temporibus?
+                                        </p>
+                                    </div>
+                                    <div class="card-footer">
+                                        footer
+                                    </div>
+                                </div>
+
+                                <h5> card-img | row & col </h5>
+                                <div class="card">
+                                    <div class="row p-2">
+                                        <div class="col-md-4">
+                                            <img src="https://picsum.photos/500/500" alt="" class="card-img">
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="card-body">
+                                                <div class="card-title">title</div>
+                                                <p class="card-text">
+                                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus
+                                                    ipsam nobis ad consequuntur animi odio tempore labore reprehenderit
+                                                    saepe illum corrupti eligendi explicabo repellendus esse ullam
+                                                    aspernatur, velit ipsum voluptatem?
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <h5> card colors </h5>
+                                <div class="card text-white bg-dark">
+                                    <div class="card-header">
+                                        <h5 class="card-title">Title</h5>
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus
+                                            ipsam nobis ad consequuntur animi odio tempore labore reprehenderit
+                                            saepe illum corrupti eligendi explicabo repellendus esse ullam
+                                            aspernatur, velit ipsum voluptatem?
+                                        </p>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="card text-dark bg-success">
+                                    <div class="card-header">
+                                        <h5 class="card-title">Title</h5>
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus
+                                            ipsam nobis ad consequuntur animi odio tempore labore reprehenderit
+                                            saepe illum corrupti eligendi explicabo repellendus esse ullam
+                                            aspernatur, velit ipsum voluptatem?
+                                        </p>
+                                    </div>
+                                </div>
+                                <hr>
+                                <h5> card border colors </h5>
+                                <div class="card text-white bg-primary border-success">
+                                    <div class="card-header">
+                                        <h5 class="card-title">Title</h5>
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus
+                                            ipsam nobis ad consequuntur animi odio tempore labore reprehenderit
+                                            saepe illum corrupti eligendi explicabo repellendus esse ullam
+                                            aspernatur, velit ipsum voluptatem?
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <hr>
+                                <h5> card-group </h5>
+                                <div class="card-group">
+                                    <div class="card text-white bg-primary border-success">
+                                        <div class="card-header">
+                                            <h5 class="card-title">Title</h5>
+                                        </div>
+                                        <div class="card-body">
+                                            <p class="card-text">
+                                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus
+                                                ipsam nobis ad consequuntur animi odio tempore labore reprehenderit
+                                                saepe illum corrupti eligendi explicabo repellendus esse ullam
+                                                aspernatur, velit ipsum voluptatem?
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="card text-white bg-danger border-success">
+                                        <div class="card-header">
+                                            <h5 class="card-title">Title</h5>
+                                        </div>
+                                        <div class="card-body">
+                                            <p class="card-text">
+                                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus
+                                                ipsam nobis ad consequuntur animi odio tempore labore reprehenderit
+                                                saepe illum corrupti eligendi explicabo repellendus esse ullam
+                                                aspernatur, velit ipsum voluptatem?
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr>
+                                <h5> card-deck </h5>
+                                <div class="card-deck">
+                                    <div class="card text-white bg-primary border-success">
+                                        <div class="card-header">
+                                            <h5 class="card-title">Title</h5>
+                                        </div>
+                                        <div class="card-body">
+                                            <p class="card-text">
+                                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus
+                                                ipsam nobis ad consequuntur animi odio tempore labore reprehenderit
+                                                saepe illum corrupti eligendi explicabo repellendus esse ullam
+                                                aspernatur, velit ipsum voluptatem?
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="card text-white bg-danger border-success">
+                                        <div class="card-header">
+                                            <h5 class="card-title">Title</h5>
+                                        </div>
+                                        <div class="card-body">
+                                            <p class="card-text">
+                                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus
+                                                ipsam nobis ad consequuntur animi odio tempore labore reprehenderit
+                                                saepe illum corrupti eligendi explicabo repellendus esse ullam
+                                                aspernatur, velit ipsum voluptatem?
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <hr>
+                                <h5> card-columns </h5>
+                                <div class="container">
+                                    <div class="card-columns">
+                                        <div class="card">
+                                            <div class="card-header">
+                                                <div class="card-title">Title</div>
+                                            </div>
+                                            <div class="card-body">
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias,
+                                                labore
+                                                cupiditate
+                                                voluptas nostrum laboriosam. Dolorem,
+                                                doloremque temporibus?
+                                            </div>
+                                            <div class="card-footer">
+                                                footer
+                                            </div>
+                                        </div>
+                                        <div class="card">
+                                            <div class="card-header">
+                                                <div class="card-title">Title</div>
+                                            </div>
+                                            <div class="card-body">
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias,
+                                                labore
+                                                cupiditate
+                                                voluptas nostrum laboriosam. Dolorem,
+                                                doloremque temporibus?
+                                            </div>
+                                        </div>
+                                        <div class="card">
+                                            <div class="card-header">
+                                                <div class="card-title">Title</div>
+                                            </div>
+                                            <div class="card-body">
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias,
+                                                labore
+                                                cupiditate
+                                                voluptas nostrum laboriosam. Dolorem,
+                                                doloremque temporibus?
+                                            </div>
+                                        </div>
+                                        <div class="card">
+                                            <div class="card-header">
+                                                <div class="card-title">Title</div>
+                                            </div>
+                                            <div class="card-body">
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias,
+                                                labore
+                                                cupiditate
+                                                voluptas nostrum laboriosam. Dolorem,
+                                                doloremque temporibus?
+                                            </div>
+                                        </div>
+                                        <div class="card">
+                                            <div class="card-header">
+                                                <div class="card-title">Title</div>
+                                            </div>
+                                            <div class="card-body">
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias,
+                                                labore
+                                                cupiditate
+                                                voluptas nostrum laboriosam. Dolorem,
+                                                doloremque temporibus?
+                                            </div>
+                                            <div class="card-footer">
+                                                footer
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </main>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script> -->
+    <script src="./assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/script.js"></script>
+</body>
+
+</html>

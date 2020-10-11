@@ -3,7 +3,6 @@ $antique-ruby: #8b2635ff;
 $lavender-blush: #f3e8eeff;
 $medium-purple: #957fefff;
 $maximum-yellow-red: #ffbf46ff;
-
 body {
     background-color: $gunmetal;
 }
@@ -12,10 +11,10 @@ header {
 }
 header, nav, main {
     background: #FFF;
-    min-height: 10vh;
+    // min-height: 10vh;
 }
 nav, main {
-    min-height: 82vh;
+    // min-height: 82vh;
     li {
         list-style: none;
     }

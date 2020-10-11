@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/scss/styles.css">
+    <title>Curso Bootstrap</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <header>Header</header>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-2 col-md-3">
+                <nav class="d-flex flex-column">
+                    <ul class="render">
+                    </ul>
+                </nav>
+            </div>
+            <div class="col-10 col-md-9">
+                <main>
+                    <div class="container">
+                        <h4>Form</h4>
+                        <h5>input-group -prepend</h5>
+
+                        <div class="row p-2">
+                            <div class="col">
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text">R$</span>
+                                    </div>
+                                    <input type="text" name="" id="" class="form-control" placeholder="0,00">
+                                </div>
+                            </div>
+                        </div>
+                        <h5>input-group -apend</h5>
+                        <div class="row p-2">
+                            <div class="col">
+                                <div class="input-group">
+                                    <input type="text" name="" id="" class="form-control" placeholder="0">
+                                    <div class="input-group-append">
+                                        <span class="input-group-text">,00</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <h5>input-group</h5>
+                        <div class="row p-2">
+                            <div class="col">
+                                <div class="form-group">
+                                    <label for="url">URL</label>
+                                    <div class="input-group">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text">https://willianfrancas.githubio/</span>
+                                        </div>
+                                        <input type="text" class="form-control" id="url" placeholder="...">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <h5>input-group flex-nowrap</h5>
+                        <div class="row p-2">
+                            <div class="col">
+                                <div class="form-group">
+                                    <label for="url">URL</label>
+                                    <div class="input-group flex-nowrap input-group">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text">https://willianfrancas.githubio/</span>
+                                        </div>
+                                        <input type="text" class="form-control" id="url" placeholder="...">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <h5>input-group checkbox</h5>
+                        <div class="row p-2">
+                            <div class="col">
+                                <div class="form-group">
+                                    <div class="input-group flex-nowrap">
+                                        <div class="input-group-prepend">
+                                            <div class="input-group-text">
+                                                <input type="checkbox">
+                                            </div>
+                                        </div>
+                                        <input type="text" class="form-control" placeholder="accept">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <h5>input-group radio</h5>
+                        <div class="row p-2">
+                            <div class="col">
+                                <div class="form-group">
+                                    <div class="input-group flex-nowrap">
+                                        <div class="input-group-prepend">
+                                            <div class="input-group-text">
+                                                <input type="radio">
+                                            </div>
+                                        </div>
+                                        <input type="text" class="form-control" placeholder="accept">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </main>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script> -->
+    <script src="./assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/script.js"></script>
+
+</body>
+
+</html>
