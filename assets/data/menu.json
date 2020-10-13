@@ -118,6 +118,11 @@
       "id": 17
     },
     {
+      "name": "navbar",
+      "path": "navbar.html",
+      "id": 17
+    },
+    {
       "name": "desafios",
       "path": "",
       "id": 90,
