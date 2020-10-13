@@ -133,6 +133,11 @@
       "id": 19
     },
     {
+      "name": "progress bar",
+      "path": "progress.html",
+      "id": 19
+    },
+    {
       "name": "desafios",
       "path": "",
       "id": 90,
