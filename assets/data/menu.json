@@ -118,6 +118,11 @@
       "id": 17
     },
     {
+      "name": "pagination",
+      "path": "pagination.html",
+      "id": 19
+    },
+    {
       "name": "desafios",
       "path": "",
       "id": 90,
