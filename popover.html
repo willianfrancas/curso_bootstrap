@@ -39,7 +39,7 @@
                             </div>
                         </div>
                         <div class="row p-2">
-                        <div class="col">
+                            <div class="col">
                                 <button type="button" class="btn btn-dark" data-toggle="popover"
                                     data-content="popover content" data-placement="top"
                                     data-trigger="focus">data-trigger = focus</button>
@@ -47,6 +47,12 @@
                                 <button type="button" class="btn btn-dark" data-toggle="popover"
                                     data-content="popover content" data-placement="top"
                                     data-trigger="hover">data-trigger = focus</button>
+                            </div>
+                        </div>
+                        <div class="row p-2">
+                            <div class="col">
+                                <button type="button" id="btn-click" class="btn btn-info" data-toggle="popover"
+                                    data-content="popover content" data-placement="top">popover</button>
                             </div>
                         </div>
                     </div>
@@ -67,6 +73,11 @@
     <script>
         $(() => {
             $('[data-toggle="popover"]').popover();
+
+            $('#btn-click').on('click', e => {
+                $('[data-toggle="popover"]').popover('toggle');
+            });
+
         });
     </script>
 </body>
