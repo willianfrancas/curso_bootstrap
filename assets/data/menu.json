@@ -113,6 +113,11 @@
       "id": 16
     },
     {
+      "name": "accordion",
+      "path": "accordion.html",
+      "id": 17
+    },
+    {
       "name": "desafios",
       "path": "",
       "id": 90,
