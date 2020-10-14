@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/scss/styles.css">
+    <title>Curso Bootstrap</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <header>Header</header>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-2 col-md-3">
+                <nav class="d-flex flex-column">
+                    <ul class="render">
+                    </ul>
+                </nav>
+            </div>
+            <div class="col-10 col-md-9">
+                <main>
+                    <div class="container">
+                        <h4>Progress</h4>
+                        <div class="row p-2">
+                            <div class="col">
+                                <h5>progress | progress-bar </h5>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row p-2">
+                            <div class="col">
+                                <h5>progress | progress-bar </h5>
+                                <div class="progress">
+                                    <div class="progress-bar w-25" role="progressbar"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row p-2">
+                            <div class="col">
+                                <h5>progress | progress-bar </h5>
+                                <div class="progress">
+                                    <div id="progress" class="progress-bar" role="progressbar"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row p-2">
+
+                            <div class="col">
+                                <h5>progress | progress-bar-striped </h5>
+                                <div class="progress">
+                                    <div id="progress" class="progress-bar progress-bar-striped" role="progressbar">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row p-2">
+
+                            <div class="col">
+                                <h5>progress | progress-bar-animated </h5>
+                                <div class="progress">
+                                    <div id="progress" class="progress-bar progress-bar-striped progress-bar-animated"
+                                        role="progressbar"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </main>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script> -->
+    <script src="./assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/script.js"></script>
+
+    <script>
+        // return false
+        $(() => {
+            let timeProgress = setInterval(() => {
+                let progress = $('.progress-bar').css('width')
+                    .replace('%', '');
+
+                progress = parseInt(progress) + 1;
+                if (progress >= 100) {
+                    clearInterval(timeProgress);
+                }
+
+                $('.progress-bar').css('width', progress + '%');
+            }, 2000)
+        })
+    </script>
+</body>
+
+</html>
