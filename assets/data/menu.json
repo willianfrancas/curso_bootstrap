@@ -148,6 +148,11 @@
       "id": 23
     },
     {
+      "name": "toasts",
+      "path": "toasts.html",
+      "id": 24
+    },
+    {
       "name": "desafios",
       "path": "",
       "id": 90,
