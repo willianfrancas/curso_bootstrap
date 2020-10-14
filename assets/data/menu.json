@@ -163,6 +163,11 @@
       "id": 26
     },
     {
+      "name": "icons",
+      "path": "icons.html",
+      "id": 27
+    },
+    {
       "name": "desafios",
       "path": "",
       "id": 90,
