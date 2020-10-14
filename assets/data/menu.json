@@ -128,6 +128,21 @@
       "id": 19
     },
     {
+      "name": "popover",
+      "path": "popover.html",
+      "id": 20
+    },
+    {
+      "name": "progress bar",
+      "path": "progress.html",
+      "id": 21
+    },
+    {
+      "name": "scroll-spy",
+      "path": "scroll-spy.html",
+      "id": 22
+    },
+    {
       "name": "desafios",
       "path": "",
       "id": 90,
