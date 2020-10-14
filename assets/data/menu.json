@@ -158,6 +158,11 @@
       "id": 25
     },
     {
+      "name": "tooltip",
+      "path": "tooltip.html",
+      "id": 26
+    },
+    {
       "name": "desafios",
       "path": "",
       "id": 90,
