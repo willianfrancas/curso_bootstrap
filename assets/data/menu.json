@@ -130,12 +130,17 @@
     {
       "name": "popover",
       "path": "popover.html",
-      "id": 19
+      "id": 20
     },
     {
       "name": "progress bar",
       "path": "progress.html",
-      "id": 19
+      "id": 21
+    },
+    {
+      "name": "scroll-spy",
+      "path": "scroll-spy.html",
+      "id": 22
     },
     {
       "name": "desafios",
