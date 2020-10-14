@@ -153,6 +153,11 @@
       "id": 24
     },
     {
+      "name": "modal",
+      "path": "modal.html",
+      "id": 25
+    },
+    {
       "name": "desafios",
       "path": "",
       "id": 90,
