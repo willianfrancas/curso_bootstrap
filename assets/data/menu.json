@@ -143,6 +143,11 @@
       "id": 22
     },
     {
+      "name": "spinners",
+      "path": "spinners.html",
+      "id": 23
+    },
+    {
       "name": "desafios",
       "path": "",
       "id": 90,
